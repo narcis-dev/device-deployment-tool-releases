@@ -3,9 +3,9 @@
   "build": 14,
   "mandatory": false,
   "files": {
-    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-mac.zip",
-    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-win.zip",
-    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-linux.zip"
+    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.0/DeviceDeploymentTool-mac.zip",
+    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.0/DeviceDeploymentTool-win.zip",
+    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.0/DeviceDeploymentTool-linux.zip"
   },
-  "notes": "Cleaner UI, device info display"
+  "notes": "User login dir change"
 }
