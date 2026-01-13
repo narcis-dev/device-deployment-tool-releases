@@ -1,26 +1,30 @@
 {
   "version": "1.0.0",
+  "updated": "2026-01-13",
   "users": [
     {
       "username": "uk_admin",
-      "password": "uk123",
+      "password": "123",
       "name": "Repairify UK Admin",
       "regions": ["UK", "NL", "IT"],
-      "role": "admin"
+      "role": "admin",
+      "enabled": true
     },
     {
       "username": "nl_admin",
-      "password": "nl123",
+      "password": "123",
       "name": "Solera NL",
       "regions": ["NL"],
-      "role": "admin"
+      "role": "admin",
+      "enabled": true
     },
     {
       "username": "it_admin",
-      "password": "it123",
+      "password": "123",
       "name": "Repairify Italy",
       "regions": ["IT"],
-      "role": "admin"
+      "role": "admin",
+      "enabled": true
     }
   ]
 }
