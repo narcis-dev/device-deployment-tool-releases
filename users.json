@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "users": [
+    {
+      "username": "uk_admin",
+      "password": "uk123",
+      "name": "Repairify UK Admin",
+      "regions": ["UK", "NL", "IT"],
+      "role": "admin"
+    },
+    {
+      "username": "nl_admin",
+      "password": "nl123",
+      "name": "Solera NL",
+      "regions": ["NL"],
+      "role": "admin"
+    },
+    {
+      "username": "it_admin",
+      "password": "it123",
+      "name": "Repairify Italy",
+      "regions": ["IT"],
+      "role": "admin"
+    }
+  ]
+}
