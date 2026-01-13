@@ -1,10 +1,11 @@
 {
-  "version": "1.1.0",
-  "build": 11,
+  "version": "1.2.0",
+  "build": 13,
   "mandatory": false,
   "files": {
-    "mac": "https://github.com/narcis-dev/device-deployment-tool-releases/releases/download/v1.1.0/DeviceDeploymentTool-mac.zip",
-    "windows": "https://github.com/narcis-dev/device-deployment-tool-releases/releases/download/v1.1.0/DeviceDeploymentTool-win.zip"
+    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-mac.zip",
+    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-win.zip",
+    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.2.0/DeviceDeploymentTool-linux.zip"
   },
-  "notes": "Initial self-update support"
+  "notes": "Cleaner UI, device info display"
 }
