@@ -1,6 +1,6 @@
 {
-  "version": "1.3.4",
-  "build": 18,
+  "version": "1.3.6",
+  "build": 20,
   "mandatory": false,
   "files": {
     "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.4/mac.zip",
