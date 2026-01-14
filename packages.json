@@ -1,0 +1,17 @@
+{
+  "base_url": "http://321.repair",
+  "use_pattern": true,
+  "pattern": "{company}-{software}-{device}.zip",
+
+  "mappings": {
+    "REPAIRIFYITALY/MAC/ETR8": "REPAIRIFYITALY-MAC-ETR8.zip",
+    "REPAIRIFYITALY/MAC/ETR10": "REPAIRIFYITALY-MAC-ETR10.zip",
+    "REPAIRIFYITALY/SOLERA/ETR8": "REPAIRIFYITALY-SOLERA-ETR8.zip",
+    "REPAIRIFYITALY/SOLERA/ETR10": "REPAIRIFYITALY-SOLERA-ETR10.zip",
+    "REPAIRIFYUK/MAC/ETR10": "REPAIRIFYUK-MAC-ETR10.zip"
+  },
+
+  "fallback_urls": [
+    "http://backup.321.repair"
+  ]
+}
