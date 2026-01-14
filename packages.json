@@ -11,16 +11,3 @@
   },
   "fallback_urls": []
 }
-```
-
-**Key changes:**
-- ✅ Changed all keys to match your actual company names (with spaces)
-- ✅ Added `Solera UK/SOLERA/AIO` mapping
-
----
-
-## **Then Upload the File to GitHub:**
-
-Push this updated `packages.json` to your releases repo:
-```
-https://github.com/narcis-dev/device-deployment-tool-releases/main/packages.json
