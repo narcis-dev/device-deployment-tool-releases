@@ -1,5 +1,5 @@
 {
-  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/latest/download",
+  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download/apks",
   "use_pattern": false,
 
   "mappings": {
