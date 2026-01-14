@@ -5,7 +5,7 @@
   "files": {
     "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.4/mac.zip",
     "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.4/windows.zip",
-    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.4/inux.zip"
+    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.3.4/linux.zip"
   },
   "notes": "test build bump"
 }
