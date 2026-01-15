@@ -8,34 +8,13 @@
     "Repairify Italy/ASTECH/AIO": "wallpapers/REPAIRIFYITALY-ASTECH-AIO.zip",
     "Repairify Italy/ASTECH/ASTECH8": "wallpapers/REPAIRIFYITALY-ASTECH-ASTECH8.zip",
     "Repairify Italy/SOLERA/AIO": "wallpapers/REPAIRIFYITALY-SOLERA-AIO.zip",
-    "Repairify UK/MAC/ETR8": "apks/REPAIRIFYUK-MAC-ETR8.zip",
-    "Repairify UK/MAC/ETR10": "apks/REPAIRIFYUK-MAC-ETR10.zip",
+    "Repairify UK/MAC/ETR8": "wallpapers/REPAIRIFYUK-MAC-ETR8.zip",
+    "Repairify UK/MAC/ETR10": "wallpapers/REPAIRIFYUK-MAC-ETR10.zip",
     "Repairify UK/ASTECH/AIO": "wallpapers/REPAIRIFYUK-ASTECH-AIO.zip",
     "Repairify UK/ASTECH/ASTECH8": "wallpapers/REPAIRIFYUK-ASTECH-ASTECH8.zip",
-    "Repairify UK/SOLERA/AIO": "apks/REPAIRIFYUK-SOLERA-AIO.zip",
+    "Repairify UK/SOLERA/AIO": "wallpapers/REPAIRIFYUK-SOLERA-AIO.zip",
     "Solera UK/SOLERA/AIO": "wallpapers/SOLERAUK-SOLERA-AIO.zip",
     "Solera NL/SOLERA/AIO": "wallpapers/SOLERANL-SOLERA-AIO.zip"
   },
   "fallback_urls": []
 }
-```
-
----
-
-## **📋 How It Works:**
-
-### **Base URL:**
-```
-https://github.com/.../releases/download
-```
-
-### **Full URLs Built:**
-```
-base_url + "/" + mapping_value
-
-Examples:
-- apks/REPAIRIFYUK-MAC-ETR8.zip
-  → https://github.com/.../releases/download/apks/REPAIRIFYUK-MAC-ETR8.zip
-
-- wallpapers/REPAIRIFYITALY-MAC-ETR8.zip
-  → https://github.com/.../releases/download/wallpapers/REPAIRIFYITALY-MAC-ETR8.zip
