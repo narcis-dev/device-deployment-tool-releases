@@ -1,11 +1,11 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "build": 26,
   "mandatory": false,
   "files": {
-    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.1/mac.zip",
-    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.1/windows.zip",
-    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.1/linux.zip"
+    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.2/mac.zip",
+    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.2/windows.zip",
+    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.2/linux.zip"
   },
   "notes": "test build bump"
 }
