@@ -1,5 +1,5 @@
 {
-  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download/wallpapers",
+  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download/apks",
   "use_pattern": false,
   "wallpapers_zip": "https://github.com/narcis-dev/device-deployment-tool/releases/download/wallpapers/wallpapers.zip",
   "mappings": {
