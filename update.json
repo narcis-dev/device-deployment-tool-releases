@@ -1,11 +1,11 @@
 {
-  "version": "1.4.4",
-  "build": 27,
+  "version": "1.5.0",
+  "build": 30,
   "mandatory": false,
   "files": {
-    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.4/mac-build.zip",
-    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.4/windows-build.zip",
-    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.4.4/linux-build.zip"
+    "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.5.0/mac-build.zip",
+    "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.5.0/windows-build.zip",
+    "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.5.0/linux-build.zip"
   },
-  "notes": "v1.4.4"
+  "notes": "v1.5.0 - Admin panel: editable companies + save functionality"
 }
