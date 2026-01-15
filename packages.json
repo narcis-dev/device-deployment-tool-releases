@@ -1,20 +1,20 @@
 {
-  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download",
+  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download/wallpapers",
   "use_pattern": false,
   "wallpapers_zip": "https://github.com/narcis-dev/device-deployment-tool/releases/download/wallpapers/wallpapers.zip",
   "mappings": {
-    "Repairify Italy/MAC/ETR8": "wallpapers/REPAIRIFYITALY-MAC-ETR8.zip",
-    "Repairify Italy/MAC/ETR10": "wallpapers/REPAIRIFYITALY-MAC-ETR10.zip",
-    "Repairify Italy/ASTECH/AIO": "wallpapers/REPAIRIFYITALY-ASTECH-AIO.zip",
-    "Repairify Italy/ASTECH/ASTECH8": "wallpapers/REPAIRIFYITALY-ASTECH-ASTECH8.zip",
-    "Repairify Italy/SOLERA/AIO": "wallpapers/REPAIRIFYITALY-SOLERA-AIO.zip",
-    "Repairify UK/MAC/ETR8": "wallpapers/REPAIRIFYUK-MAC-ETR8.zip",
-    "Repairify UK/MAC/ETR10": "wallpapers/REPAIRIFYUK-MAC-ETR10.zip",
-    "Repairify UK/ASTECH/AIO": "wallpapers/REPAIRIFYUK-ASTECH-AIO.zip",
-    "Repairify UK/ASTECH/ASTECH8": "wallpapers/REPAIRIFYUK-ASTECH-ASTECH8.zip",
-    "Repairify UK/SOLERA/AIO": "wallpapers/REPAIRIFYUK-SOLERA-AIO.zip",
-    "Solera UK/SOLERA/AIO": "wallpapers/SOLERAUK-SOLERA-AIO.zip",
-    "Solera NL/SOLERA/AIO": "wallpapers/SOLERANL-SOLERA-AIO.zip"
+    "Repairify Italy/MAC/ETR8": "REPAIRIFYITALY-MAC-ETR8.zip",
+    "Repairify Italy/MAC/ETR10": "REPAIRIFYITALY-MAC-ETR10.zip",
+    "Repairify Italy/ASTECH/AIO": "REPAIRIFYITALY-ASTECH-AIO.zip",
+    "Repairify Italy/ASTECH/ASTECH8": "REPAIRIFYITALY-ASTECH-ASTECH8.zip",
+    "Repairify Italy/SOLERA/AIO": "REPAIRIFYITALY-SOLERA-AIO.zip",
+    "Repairify UK/MAC/ETR8": "REPAIRIFYUK-MAC-ETR8.zip",
+    "Repairify UK/MAC/ETR10": "REPAIRIFYUK-MAC-ETR10.zip",
+    "Repairify UK/ASTECH/AIO": "REPAIRIFYUK-ASTECH-AIO.zip",
+    "Repairify UK/ASTECH/ASTECH8": "REPAIRIFYUK-ASTECH-ASTECH8.zip",
+    "Repairify UK/SOLERA/AIO": "REPAIRIFYUK-SOLERA-AIO.zip",
+    "Solera UK/SOLERA/AIO": "SOLERAUK-SOLERA-AIO.zip",
+    "Solera NL/SOLERA/AIO": "SOLERANL-SOLERA-AIO.zip"
   },
   "fallback_urls": []
 }
