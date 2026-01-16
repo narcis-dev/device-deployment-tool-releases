@@ -1,6 +1,6 @@
 {
     "version": "1.6.0",
-    "build": 35,
+    "build": 30,
     "mandatory": false,
     "notes": "• Fixed auto-deploy race condition\n• Cleaner progress messages for customers\n• New collapsible help screen\n• In-app auto-update support",
     "files": {
