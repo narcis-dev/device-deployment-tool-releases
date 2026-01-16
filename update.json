@@ -2,24 +2,10 @@
     "version": "1.6.0",
     "build": 35,
     "mandatory": false,
-    "notes": "• Fixed auto-deploy race condition\n• Cleaner progress messages\n• New help screen with collapsible sections\n• Auto-update support",
+    "notes": "• Fixed auto-deploy\n• Cleaner UI\n• In-app auto-update",
     "files": {
-        "windows": "https://github.com/narcis-dev/device-deployment-tool-releases/releases/download/v1.2.0/DeviceDeploymentTool.exe",
-        "mac": "https://github.com/narcis-dev/device-deployment-tool-releases/releases/download/v1.2.0/DeviceDeploymentTool.dmg",
-        "linux": "https://github.com/narcis-dev/device-deployment-tool-releases/releases/download/v1.2.0/DeviceDeploymentTool.tar.gz"
+        "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-win.exe",
+        "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-mac.zip",
+        "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-linux"
     }
 }
-```
-
-## What Users See
-```
-┌─────────────────────────────────────────────────┐
-│  🎉 Version 1.2.0 Available                     │
-│                                                 │
-│  • Fixed auto-deploy race condition             │
-│  • Cleaner progress messages                    │
-│  • New help screen with collapsible sections    │
-│  • Auto-update support                          │
-│                                                 │
-│  [Install & Restart]  [Later]                   │
-└─────────────────────────────────────────────────┘
