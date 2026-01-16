@@ -2,7 +2,7 @@
     "version": "1.6.0",
     "build": 35,
     "mandatory": false,
-    "notes": "• Fixed auto-deploy\n• Cleaner UI\n• In-app auto-update",
+    "notes": "• Fixed auto-deploy race condition\n• Cleaner progress messages for customers\n• New collapsible help screen\n• In-app auto-update support",
     "files": {
         "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-win.exe",
         "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-mac.zip",
