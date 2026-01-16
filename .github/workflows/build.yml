@@ -1,0 +1,152 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 1.2.0)'
+        required: true
+      build:
+        description: 'Build number'
+        required: true
+
+jobs:
+  # ===========================================
+  # Windows Build
+  # ===========================================
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build executable
+        run: pyinstaller --clean DeviceDeploymentTool.spec
+
+      - name: Create ZIP (for manual download)
+        run: |
+          cd dist
+          Compress-Archive -Path "DeviceDeploymentTool-win.exe" -DestinationPath "DeviceDeploymentTool-windows.zip"
+
+      - name: Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: |
+            dist/DeviceDeploymentTool-win.exe
+            dist/DeviceDeploymentTool-windows.zip
+
+  # ===========================================
+  # macOS Build
+  # ===========================================
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build app
+        run: pyinstaller --clean DeviceDeploymentTool.spec
+
+      - name: Create ZIP
+        run: |
+          cd dist
+          zip -r "DeviceDeploymentTool-mac.zip" "DeviceDeploymentTool.app"
+
+      - name: Upload macOS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-build
+          path: dist/DeviceDeploymentTool-mac.zip
+
+  # ===========================================
+  # Linux Build
+  # ===========================================
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build binary
+        run: pyinstaller --clean DeviceDeploymentTool.spec
+
+      - name: Create tarball
+        run: |
+          cd dist
+          tar -czf "DeviceDeploymentTool-linux.tar.gz" "DeviceDeploymentTool-linux"
+
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-build
+          path: |
+            dist/DeviceDeploymentTool-linux
+            dist/DeviceDeploymentTool-linux.tar.gz
+
+  # ===========================================
+  # Create Release
+  # ===========================================
+  release:
+    needs: [build-windows, build-macos, build-linux]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Display structure
+        run: ls -R artifacts
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            artifacts/windows-build/DeviceDeploymentTool-win.exe
+            artifacts/windows-build/DeviceDeploymentTool-windows.zip
+            artifacts/macos-build/DeviceDeploymentTool-mac.zip
+            artifacts/linux-build/DeviceDeploymentTool-linux
+            artifacts/linux-build/DeviceDeploymentTool-linux.tar.gz
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
