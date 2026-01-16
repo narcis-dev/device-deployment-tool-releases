@@ -4,8 +4,8 @@
     "mandatory": false,
     "notes": "• Fixed auto-deploy race condition\n• Cleaner progress messages for customers\n• New collapsible help screen\n• In-app auto-update support",
     "files": {
-        "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-win.exe",
+        "windows": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-windows.zip",
         "mac": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-mac.zip",
-        "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-linux"
+        "linux": "https://github.com/narcis-dev/device-deployment-tool/releases/download/v1.6.0/DeviceDeploymentTool-linux.tar.gz"
     }
 }
