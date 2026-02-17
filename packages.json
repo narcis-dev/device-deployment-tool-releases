@@ -1,7 +1,7 @@
 {
-  "base_url": "https://github.com/narcis-dev/device-deployment-tool/releases/download/apks",
+  "base_url": "https://pub-9bced269f1384436b5c08597e726183c.r2.dev/apks",
   "use_pattern": false,
-  "wallpapers_zip": "https://github.com/narcis-dev/device-deployment-tool/releases/download/wallpapers/wallpapers.zip",
+  "wallpapers_base_url": "https://pub-9bced269f1384436b5c08597e726183c.r2.dev/wallpapers",
   "mappings": {
     "Repairify Italy/MAC/ETR8": "REPAIRIFYITALY-MAC-ETR8.zip",
     "Repairify Italy/MAC/ETR10": "REPAIRIFYITALY-MAC-ETR10.zip",
